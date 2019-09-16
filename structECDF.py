@@ -25,7 +25,7 @@ import numpy as np
 from scipy.interpolate import interp1d
 from Hammerla_et_al import ecdfRep
 
-def structECDF(data, 
+def structECDF(data, # shape: sensor channel x window dimension
     is_intrp=True,
     # multi-scale
     is_ms=True,
@@ -41,7 +41,7 @@ def structECDF(data,
     #
     #   Estimate structural ecdf-representation according to 
     #
-    #   Kwon, H., Abowd, G. D., & Plötz, T. (2018, October). 
+    #   Kwon, H., Abowd, G. D., & Ploetz, T. (2018, October). 
     #   Adding structural characteristics to distribution-based accelerometer
     #   representations for activity recognition using wearables. 
     #   In Proceedings of the 2018 ACM International Symposium on Wearable Computers
